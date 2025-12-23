@@ -96,4 +96,4 @@ Contributions are welcome! To contribute:
 This project has no license specified. All rights are reserved by the owner.
 ## Acknowledgments
 
-This project utilizes the MAGIC Gamma Telescope data and benefits from the AstroML library. We acknowledge the contributions of the AstroML developers and the MAGIC collaboration.
+This project utilizes the MAGIC Gamma Telescope data and benefits from the AstroML library. We acknowledge the contributions of the AstroML developers and the MAGIC collaboration
