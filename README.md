@@ -8,6 +8,9 @@ AstroML is a machine learning project that classifies cosmic particle events fro
 *   **Classical Machine Learning Algorithms:** Implements KNN, Naïve Bayes, Logistic Regression, and SVM.
 *   **Performance Analysis:** Compares the performance of different machine learning models on astrophysical data.
 *   **Telescope Data Analysis:** Analyzes data obtained from the MAGIC Gamma Telescope.
+*   **New Features:**
+    *   **Random Forest Classifier:** Improved classification performance (~87% accuracy).
+    *   **Correlation Heatmap:** Visualizes feature relationships using Seaborn.
 
 ## Prerequisites & Dependencies
 
@@ -21,11 +24,13 @@ Before running this project, ensure you have the following installed:
     *   Scikit-learn (sklearn)
     *   Matplotlib
     *   AstroML
+    *   Seaborn (New)
+    *   Imbalanced-learn (New)
 
 You can install these dependencies using pip:
 
 ```bash
-pip install numpy pandas scikit-learn matplotlib astroML
+pip install numpy pandas matplotlib scikit-learn seaborn imbalanced-learn
 ```
 
 ## Installation & Setup Instructions
@@ -40,14 +45,15 @@ pip install numpy pandas scikit-learn matplotlib astroML
 2.  **Install dependencies:**
 
     ```bash
-    pip install numpy pandas scikit-learn matplotlib astroML
+    pip install numpy pandas matplotlib scikit-learn seaborn imbalanced-learn
     ```
 
-3.  **Run the Jupyter Notebook:**
+3.  **Run the Project:**
 
-    ```bash
-    jupyter notebook Telescope.ipynb
-    ```
+    *   **Run the Notebook:**
+        ```bash
+        jupyter notebook Telescope.ipynb
+        ```
 
 ## Usage Examples
 
